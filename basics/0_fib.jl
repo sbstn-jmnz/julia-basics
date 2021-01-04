@@ -8,5 +8,5 @@ end
 to = parse(Int, ARGS[1])
 
 for i in 0:to
-  println(string("Fibonacci of ", i, " = ", fib(i)))
+  fib(i)
 end

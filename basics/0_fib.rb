@@ -8,5 +8,5 @@ end
 to = ARGV[0].to_i
 
 for i in 0..to do 
-  puts("Fibonacci of #{i} = #{fib(i)}")
+  fib(i)
 end
