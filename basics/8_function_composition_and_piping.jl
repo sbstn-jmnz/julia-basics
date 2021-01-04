@@ -4,9 +4,9 @@
 +(3, 6)
 # Now we can compose functions with the \circ for composition
 println((sqrt ∘ +)(3, 6))
-# Other example
+# Other example: Ths is a complicated line
 map(x -> first(reverse(uppercase(x))),split("Julia Beginner Course"))
-# Same as
+# The same, but simplified with composition
 map(first ∘ reverse ∘ uppercase, split("Julia Beginner Course"))
 
 # Combine functions together with |> 

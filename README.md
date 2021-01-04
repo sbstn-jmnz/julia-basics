@@ -1,5 +1,8 @@
-# Code along of Getting started in Julia
+# Code along of Getting started with Julia
 
+The recomended instalation is with the [jlenv](https://github.com/HiroakiMikami/jlenv)
+ tool. A clone of rbenv for managing multiple versions on julia organized
+  
 Files should run with the Julia compiler from the terminal.
 
 The basics folder covers
@@ -19,5 +22,5 @@ In the files folder are:
 - XML and JSON 
 - Working with images
 
-Finally in the las folder are a bit of the standar library and the built in Package manager with some examples including:
+Finally in the last folder are a bit of the standar library and the built in Package manager with some examples including:
 -  Dates, linnear algebra and statistics
